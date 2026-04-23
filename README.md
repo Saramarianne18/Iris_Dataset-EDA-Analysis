@@ -57,15 +57,28 @@ This project performs Exploratory Data Analysis (EDA) on the Iris dataset to ide
 - The data is suitable for classification tasks and predictive modeling.   
 
 ---
-## 📊 Visual Insights
+## 📊 Visualization
+### 1. Data Distribution
+<img width="830" height="682" alt="Histo" src="https://github.com/user-attachments/assets/8cb8f994-46c7-4f7a-9e55-5d145388b0d2" />
 
-- Boxplots revealed that petal length and petal width provide the clearest separation between species, with minimal overlap across groups.  
-- Histograms showed that petal features have wider and more distinct distributions, while sepal features are more overlapping and less distinctive.  
-- Pairplot visualizations highlighted clear clustering of species, especially when comparing petal length and petal width.  
-- Correlation heatmap indicated a strong positive relationship between petal length and petal width, suggesting these features move together.  
-- Outlier analysis using boxplots showed minimal extreme values, confirming the dataset is clean and consistent.  
-- Scatter plots demonstrated that petal-based features create well-separated clusters, making them highly effective for classification tasks.
+- The pairplot reveals clear clustering of species, especially when comparing petal length and petal width. Setosa is distinctly separable, while Versicolor and Virginica show slight overlap.
 
+### 2. Correlation Heatmap
+<img width="635" height="526" alt="correlation" src="https://github.com/user-attachments/assets/d8010e3a-d7a5-48f1-ab3f-cb572df0514a" />
+
+- The heatmap shows a strong positive correlation between petal length and petal width, indicating that these features increase together. This highlights their importance in distinguishing species.
+
+### 3. Species Comparison (Boxplot)
+<img width="990" height="590" alt="Boxplot" src="https://github.com/user-attachments/assets/6b23428e-f6a1-4d2f-bf45-fa89b05f8ae7" />
+
+- The boxplot demonstrates that petal length clearly separates species, with Setosa showing significantly smaller values and minimal overlap across groups. This makes it a strong feature for classification.
+
+### 4. Pairwise Relationships (Pairplot)
+
+<img width="1112" height="986" alt="Pairplot" src="https://github.com/user-attachments/assets/520be05b-79d8-40cf-a158-9cefefc07904" />
+
+- The pairplot reveals clear clustering of species, especially when comparing petal length and petal width. Setosa is distinctly separable, while Versicolor and Virginica show slight overlap.
+  
 ---
 ## Final Outcome
 
